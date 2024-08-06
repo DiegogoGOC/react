@@ -1,12 +1,7 @@
 import "../css-page/tete.css"
-import Acceuil from './acceuil';
-import Apropos from './a-propos';
-import Realisation from './realisation';
-import Blogs from './blog';
-import Mention from './mention-legales';
-import Services from './services';
-import Contact from './contact';
-import { Link ,Route, Routes} from "react-router-dom";/*style={{background: "#333"}}*/
+
+import { Link ,Route, Routes} from "react-router-dom";
+import Routt from "../rout";
 function Tete() {
     return (
         <div>
@@ -27,21 +22,14 @@ function Tete() {
                                 <li class="nav-item mx-0 mx-lg-1"><Link class="nav-link py-3 px-0 px-lg-3 rounded" to="/Contact">Contact</Link></li>
                             </ul>
                             
+                            
                         </div>
                     </div>
                 </nav>
             </div>
 
 
-        <Routes>
-            <Route path='/' element={ <Acceuil/>}></Route>
-            <Route path='/Apropos' element={<Apropos/>}></Route>
-            <Route path='/Realisation' element={<Realisation/>}></Route>
-            <Route path='/Blogs' element={<Blogs/>}></Route>
-            <Route path='/Services' element={<Services/>}></Route>
-            <Route path='/Mention' element={<Mention/>}></Route>
-            <Route path='/Contact' element={<Contact/>}></Route>
-        </Routes>
+
         </div>
 
 

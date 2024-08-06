@@ -1,11 +1,5 @@
 import "../css-page/pied.css"
-import Acceuil from './acceuil';
-import Apropos from './a-propos';
-import Realisation from './realisation';
-import Blogs from './blog';
-import Mention from './mention-legales';
-import Services from './services';
-import Contact from './contact';
+
 import { Link ,Route, Routes} from "react-router-dom";/*style={{background: "#333"}}*/
 function Pied() {
     return (

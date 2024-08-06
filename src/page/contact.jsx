@@ -4,7 +4,7 @@ import "../css-page/a-propos.css"/*style="height:100px;"*//*value="Votre nom"  v
     return (
       <div>
         <div>
-          <img src="img-use/clavier-bleu.png" alt="ordinateur" width="100%" height=""/>
+          <img src="img-use/contact-bg.jpg" alt="ordinateur" width="100%" height=""/>
         </div>
           
         <div class="containeur bloc centered2">

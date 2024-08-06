@@ -22,7 +22,7 @@ function Apropos() {
                 que j'écris et je respecte les bonnes pratiques du web.</p>
         </div>
         <div class="col-md-6 mb-12">
-            <img id="apropo" src="img-use/main-odinateur1.png" alt="" />
+            <img id="apropo" src="img-use/about.jpg" alt="" />
             <h3>competance</h3>
             <ul>
                 <li>
